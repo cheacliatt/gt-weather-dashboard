@@ -10,18 +10,109 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <h1>Hello World</h1>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 id="header-h1">Hot Down Summer in the City</h1>
+      </div>
+    </div>
 
-
-
-
-
-
-
-
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="container" id="search-container">
+          <h4>Search for City</h4>
+          <div class="row">
+            <input type="text" placeholder="City Name" id="city-input" />
+            <button class="btn-primary" id="city-button">Click Me</button>
+          </div>
+        </div>
+        <div class="container">
+          <ul>
+            <li>Chicago</li>
+            <li>Bolder</li>
+            <li>Cocomo</li>
+            <li>Tokyo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-7" id="responsive-page">
+        <div class="jumbotron">
+          <h3 class="display-4 today-date" id="jumbo-date"></h3>
+          <img src="" id="jumbo-icon" />
+          <div class="container">
+            <p id="jumbo-temp"></p>
+            <p id="jumbo-humid"></p>
+            <p id="jumbo-wind"></p>
+            <div class="row">
+              <div class="col-sm-2">
+                <p>UV-Index:</p>
+              </div>
+              <div class="col-sm-2">
+                <p id="jumbo-uv"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h3>5 Day Forecast</h3>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card daily">
+              <h5 id="day-one"></h5>
+              <div class="col">
+                <img src="" id="fd-one-image" />
+              </div>
+              <p id="fd-one-temp"></p>
+              <p id="fd-one-humid"></p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card daily">
+              <h5 id="day-two"></h5>
+              <div class="col">
+                <img src="" id="fd-two-image" />
+              </div>
+              <p id="fd-two-temp"></p>
+              <p id="fd-two-humid"></p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card daily">
+              <h5 id="day-three"></h5>
+              <div class="col">
+                <img src="" id="fd-three-image" />
+              </div>
+              <p id="fd-three-temp"></p>
+              <p id="fd-three-humid"></p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card daily">
+              <h5 id="day-four"></h5>
+              <div class="col">
+                <img src="" id="fd-four-image" />
+              </div>
+              <p id="fd-four-temp"></p>
+              <p id="fd-four-humid"></p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card daily">
+              <h5 id="day-five"></h5>
+              <div class="col">
+                <img src="" id="fd-five-image" />
+              </div>
+              <p id="fd-five-temp"></p>
+              <p id="fd-five-humid"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <col-sm-1></col-sm-1>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -38,6 +129,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

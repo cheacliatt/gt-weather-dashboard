@@ -1,0 +1,40 @@
+#header-h1 {
+    text-align: center;
+};
+
+#city-input {
+    text-align: center;
+    float: right;
+    padding: 25%;
+}
+
+#city-button {
+    text-align: center;
+    float: right;
+}
+
+#search-container {
+    margin: 10px;
+}
+
+.daily {
+    background-color: dodgerblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card {
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#jumbo-uv {
+    text-align: center;
+}
+
+#responsive-page {
+    display: none;
+}
