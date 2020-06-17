@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather Dashboard</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,6 +19,7 @@
       </div>
     </header>
 
+  <!-- Beggining of Search Bar input  -->
     <div class="row">
       <div class="col-sm-4">
         <div class="container" id="search-container">
@@ -28,6 +29,9 @@
             <button class="btn-primary" id="city-button">Click Me</button>
           </div>
         </div>
+  <!-- End of Search bar input -->
+
+  <!-- List of city's to choose from (in development) -->
         <div class="container">
           <ul>
             <li>Chicago</li>
@@ -37,6 +41,7 @@
           </ul>
         </div>
       </div>
+      <!-- Jumbotron with today's weather -->
       <div class="col-sm-7" id="responsive-page">
         <div class="jumbotron">
           <h3 class="display-4 today-date" id="jumbo-date"></h3>
@@ -55,6 +60,7 @@
             </div>
           </div>
         </div>
+        <!-- Five Day Forecast -->
         <div class="row">
           <h3>5 Day Forecast</h3>
         </div>
