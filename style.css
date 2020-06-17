@@ -24,3 +24,17 @@
 ul {
     list-style-type: none;
 }
+
+.card {
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#jumbo-uv {
+    text-align: center;
+}
+
+#responsive-page {
+    display: none;
+}
