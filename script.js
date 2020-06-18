@@ -172,12 +172,11 @@ $("#city-button").on("click", function () {
   var cityEl = $("#city-input").val();
   cityData.push(cityEl);
   localStorage.setItem("cityData", JSON.stringify(cityData));
-
-  // $("#responsive-page").attr("style", "display:block");
   generateButton();
   generateWeather(cityEl);
   
 });
+// This assures the weather remains showing upon refresh
 generateButton();
 var lastCityEl = cityData[cityData.length - 1];
 generateWeather(lastCityEl);
